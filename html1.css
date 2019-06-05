@@ -16,8 +16,17 @@ p {
     color: yellowgreen;
     font-size: 24px;
  }
+ #italics {
+   font-style: italic;
+
+ }
+ #bold {
+   font-weight: bolder;
+
+ }
 .fingerscrossed { 
     color: teal;
+    font-size: 34px; 
 }        
   body {
         background: whitesmoke;
