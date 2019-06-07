@@ -1,15 +1,19 @@
 #italics {
     font-style: italic;
+    font-size: 20px;
+    font-variant: small-caps;
+    
  
 }
 
 h1 {
-  display: inline-block;
+  clear: both;
 
 }
 
 p {
   display: inline-block;
+  
 }
 
 body {
@@ -26,15 +30,18 @@ div {
 }
 
 header {
-  color: chartreuse;
+  color: purple;
   font-size: 20px;
+  text-align: center;
   border: 4px dotted crimson;
   display: inline-block;
+  text-transform: capitalize;
+  
+  
 
 }
 
 
 html {
-    background-color: aliceblue;
-
+    background: aliceblue;
 }

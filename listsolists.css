@@ -10,10 +10,21 @@ div {
     
 }
 
+body {
+    font-size: 30px;
+}
+
 ul {
     list-style-type: open circle;
     color: aqua;
 
+}
+
+em {
+    color: palevioletred;
+    padding: 15px;
+     
+     
 }
 
 ol {
@@ -22,12 +33,22 @@ ol {
 
 }
 
+img { 
+    display: block;
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 100px;
+    width: 50%;
+}
+
 footer {
     border: 5px groove purple;
     display: inline-block;
     text-align: center;
+    clear: both;
 
 }
+
 
 header {
     color: royalblue;
@@ -46,8 +67,20 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 
-
 }
+table {
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    border-bottom: 1px solid #cecfd5;
+    padding: 10px 15px;
+  }
+  tfoot tr:last-child td {
+    border-bottom: 0;
+  }
+  
+
 
 html {
     background-color: grey;
