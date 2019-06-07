@@ -1,0 +1,40 @@
+#italics {
+    font-style: italic;
+ 
+}
+
+h1 {
+  display: inline-block;
+
+}
+
+p {
+  display: inline-block;
+}
+
+body {
+    clear: both;
+    color: cornflowerblue;
+}
+
+div {
+  margin-top: 15px;
+  margin-left: 25px;
+  padding: 20px;
+  border: 8px solid rebeccapurple; 
+  float: left;
+}
+
+header {
+  color: chartreuse;
+  font-size: 20px;
+  border: 4px dotted crimson;
+  display: inline-block;
+
+}
+
+
+html {
+    background-color: aliceblue;
+
+}
