@@ -1,0 +1,91 @@
+ 
+body, html {
+    background-image: radial-gradient(white, whitesmoke, rgb(212, 170, 114), gray, rgb(77, 74, 74), black);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+
+}
+
+
+header {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(77, 74, 74);
+    text-shadow: 1px 1px black;
+    font-variant: small-caps;
+    display: block;
+    margin-bottom: 15px;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+    border: #395870;
+    position: relative;
+    
+}
+
+  .background { 
+    background-image: url("dachshundresponsive.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #395870 dotted 4px;
+    position: relative;
+    display: inline-block;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+   
+  }
+  
+h1 {
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+    color: #395870;
+    display: block;
+    margin: 10px;
+    
+    
+}
+p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+    
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  font-variant: small-caps;
+  position: relative;
+  display: block;
+  margin-top: 30px;
+  left: 35%;
+  right: 35%;
+  width: 50%; 
+}
+th,
+td {
+  padding: 10px 15px;
+}
+thead {
+  background: #395870;
+  color: #fff;
+}
+tbody tr:nth-child(even) {
+  background: #f0f0f2;
+}
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+td:first-child {
+  border-left: 1px solid #cecfd5;
+}
