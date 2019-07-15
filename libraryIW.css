@@ -1,0 +1,12 @@
+/* to set an image as the background-- edit the image.jpeg*/
+body, html {
+    background-image: url("losthtml1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+   
+}
+
+/* to import a font and not need to ref in html--edit the url to the correct font link*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');

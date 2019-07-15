@@ -1,0 +1,103 @@
+body, html {
+    background-image: url("losthtml1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+
+p { 
+    color: navy;
+    font-size: 50px;
+    font-family: 'Crimson Text', serif; 
+    background-color: rgb(40,70,117);
+} 
+
+/* element:hover{
+    background-color: rgb(8,28,61);
+}  */
+
+h1 { 
+    text-align: center;
+    color: goldenrod;
+    font-size: 30px; 
+    background-image: radial-gradient(white, yellow, orange);
+}
+h2 { 
+    text-align: center;
+    color: goldenrod;
+    font-size: 30px; 
+    background-image: radial-gradient(white, yellow, orange);
+}
+  
+#attention { 
+    color: rgb(102,227,98);
+    font-size: 20px;
+    font-variant: small-caps;
+ }
+#italics {
+   color:rgb(178,237,175);
+   font-style: italic;
+   font-size: 25px;
+   font-variant: small-caps;
+
+ }
+#bold {
+   color: rgb(7, 110, 4);
+   font-size: 25px;
+   font-weight: bolder;
+   font-variant: small-caps;
+
+ }
+.fingerscrossed { 
+    text-align: center;
+    color: navy;
+    font-size: 34px; 
+    background-image: linear-gradient(rgb(6, 77, 87), grey, white);
+}        
+
+section {
+  display: inline-block; vertical-align: top; 
+  margin-left: 250px;
+  float: left;
+  width: 200px;
+  
+}
+
+article {
+  display: inline-block; vertical-align: top;
+  margin-right: 100px;
+  float: right;
+  width: 200px;
+
+  
+  
+}
+
+aside {
+    display: inline-block;
+    border: 8px dashed black;
+    height: 175px;
+    margin-top: 385px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+    width: 110px;
+    float: right;
+    font-family: 'Crimson Text', serif;
+    color: rgb(181, 221, 148);
+    text-shadow: 1px 1px rgb(5, 41, 41) ;
+    background-color: rgb(15, 87, 109);
+}  
+
+footer {
+    clear: both;
+    display: inline-block;
+    margin-bottom: 200px;
+    margin-top: 275px;
+    font-size: 15px;
+    color: rgb(153, 44, 66);
+    text-shadow: 1.5px 1.5px black;
+    
+}
