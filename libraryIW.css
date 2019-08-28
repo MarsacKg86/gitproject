@@ -1,12 +1,45 @@
 /* to set an image as the background-- edit the image.jpeg*/
-body, html {
+html {
     background-image: url("losthtml1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
+    position: fixed;
    
 }
 
 /* to import a font and not need to ref in html--edit the url to the correct font link*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* smoke animation on hover*/
+footer:hover{
+  animation: smoke 2s linear forwards;
+}
+@keyframes smoke {
+  0% {
+      transform: translateZ(0px);
+      opacity: .9;
+      filter:blur(1px);
+  }
+  25% {
+      transform: translateZ(25px);
+      opacity: .7;
+      filter:blur(5px);
+  }
+  50% {
+      transform: translateZ(75px);
+      opacity: .5;
+      filter:blur(10px);
+  }
+  75% {
+      transform: translateZ(100px);
+      opacity: .3;
+      filter: blur(15px);
+  }
+  100% {
+    transform: translateZ(200px);
+      opacity: 0;
+      filter:blur(20px);
+  }
+}
