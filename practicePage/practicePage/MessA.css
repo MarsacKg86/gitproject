@@ -1,0 +1,129 @@
+
+html {
+  background-image: url("BGImageMessAPage.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: fixed;
+}
+
+header {
+  color: rgb(194, 14, 194);
+  text-shadow: 2px 2px rgb(10, 9, 9);
+  text-align: center;
+  background-image: radial-gradient(purple, rgb(39, 54, 47));
+  border: 8px double rgb(134, 182, 159);
+  display: inline-block;
+  text-transform: capitalize;
+  position: relative;
+  padding: 10px;
+  margin-top: 10px;
+  background-position: center;
+  left: 500px;
+}
+
+div {
+  font-size: 25px;
+  color: rgb(124, 124, 80);
+  position: relative;
+  display: inline-block;
+  top: 150px;
+  left: 100px;
+  padding: 20px;
+  border: 8px solid rebeccapurple; 
+  background-position: center;
+
+}
+
+#crazy {
+  font-family:'Notable', sans-serif;
+  font-size: 30px;
+}
+
+#IDID {
+    font-family:'Pacifico', cursive;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+h1 {
+  clear: both;
+  position: relative;
+  top: 200px;
+  left: 25px;
+  font-variant: small-caps;
+  font-size: 35px;
+  color: whitesmoke;
+  
+}
+
+p {
+  display: inline-block;
+  position: relative;
+  left: 25px;
+  top: 250px;
+  margin-right: 10%;
+  background-position: left;
+  color: rgb(124, 124, 80);
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  background: rgb(124, 124, 80);
+  opacity: .9;
+  
+}
+
+from kat.css 
+  button {
+  font-family: 'Barrio', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  background: rgb(238, 18, 201);
+  border: solid 5px chartreuse;
+  transition: border-width 0.6s linear;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  
+} 
+footer:hover{
+  animation: smoke 2s linear forwards;
+}
+@keyframes smoke {
+  0% {
+      transform: translateZ(0px);
+      opacity: .9;
+      filter:blur(1px);
+  }
+  25% {
+      transform: translateZ(25px);
+      opacity: .7;
+      filter:blur(5px);
+  }
+  50% {
+      transform: translateZ(75px);
+      opacity: .5;
+      filter:blur(10px);
+  }
+  75% {
+      transform: translateZ(100px);
+      opacity: .3;
+      filter: blur(15px);
+  }
+  100% {
+    transform: translateZ(200px);
+      opacity: 0;
+      filter:blur(20px);
+  }
+}
